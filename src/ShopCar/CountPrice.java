@@ -101,8 +101,7 @@ public class CountPrice {
 
     public double getTotal_price() {
         this.total_price = this.getPri_apple() + this.getPri_banana()
-                + this.getPri_grapefruit() + this.getPri_grapefruit()
-                + this.getPri_orange() + this.getPri_peach();
+                + this.getPri_grapefruit() + this.getPri_orange() + this.getPri_peach();
         return total_price;
     }
 }
