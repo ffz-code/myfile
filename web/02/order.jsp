@@ -21,7 +21,6 @@
     <jsp:setProperty name="car" property="num_grapefruit" param="grapefruit"/>
     <jsp:setProperty name="car" property="num_peach" param="peach"/>
     <p><b>尊敬的用户：</b></p>
-
     <p>您选购的订单详情如下</p>
     <table>
         <thead>
@@ -66,7 +65,6 @@
         </tbody>
     </table>
     <div>总价为：<jsp:getProperty  name="car" property="total_price"/>元</div>
-
 </jsp:useBean>
 </body>
 </html>
