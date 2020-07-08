@@ -13,7 +13,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>购物页面</title>
     <style>
-        td{border:1px solid green;}
+        td{border:1px solid blue;}
     </style>
 </head>
 <body>
@@ -24,39 +24,39 @@
         <tr>
             <th>编号</th>
             <th>商品名</th>
-            <th>单价</th>
-            <th>购买数量</th>
+            <th>单价/kg</th>
+            <th>购买数量/kg</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>1</td>
             <td>苹果</td>
-            <td>￥5.0</td>
+            <td>5元</td>
             <td><input type="text" name="apple"></td>
         </tr>
         <tr>
             <td>2</td>
             <td>橘子</td>
-            <td>￥3.0</td>
+            <td>3元</td>
             <td><input type="text" name="orange"></td>
         </tr>
         <tr>
             <td>3</td>
             <td>香蕉</td>
-            <td>￥2.0</td>
+            <td>2元</td>
             <td><input type="text" name="banana"></td>
         </tr>
         <tr>
             <td>4</td>
             <td>柚子</td>
-            <td>￥4.5</td>
+            <td>4.5元</td>
             <td><input type="text" name="grapefruit"></td>
         </tr>
         <tr>
             <td>5</td>
             <td>桃子</td>
-            <td>￥5.5</td>
+            <td>5.5元</td>
             <td><input type="text" name="peach"></td>
         </tr>
         </tbody>
